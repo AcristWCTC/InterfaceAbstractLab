@@ -56,20 +56,4 @@ public class AdvancedJavaCourse extends ProgrammingCourse {
         this.courseNumber = courseNumber;
     }
 
-    public String getCourseName() {
-        return this.getCourseName().toUpperCase();
-    }
-
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
-    public double getCredits() {
-        return credits;
-    }
-
-    public String getPrerequisites() {
-        return prerequisites;
-    }
-
 }

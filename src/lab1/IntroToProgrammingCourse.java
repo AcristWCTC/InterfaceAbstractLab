@@ -54,22 +54,6 @@ public class IntroToProgrammingCourse extends ProgrammingCourse {
         }
         this.courseName = courseName;
     }
-
-    public String getCourseName() {
-        return this.getCourseName().toUpperCase();
-    }
-
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
-    public double getCredits() {
-        return credits;
-    }
-
-    public String getPrerequisites() {
-        return prerequisites;
-    }
     
 
     
