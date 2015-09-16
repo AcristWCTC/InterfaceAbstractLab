@@ -14,9 +14,9 @@ public class StartUp {
     public static void main(String[] args) {
         
         
-        ProgrammingCourse courseA = new AdvancedJavaCourse("Advanced Java","10050", "Intro to Java", 4.0);
-        ProgrammingCourse courseB = new IntroJavaCourse("Intro to Java","10040" ,"Intro to Programming", 2.0);
-        ProgrammingCourse courseC = new IntroToProgrammingCourse("Intro To Programming","10040", null, 2.0);
+        AdvancedJavaCourse courseA = new AdvancedJavaCourse("Advanced Java","10050", "Intro to Java", 4.0);
+        IntroJavaCourse courseB = new IntroJavaCourse("Intro to Java","10040" ,"Intro to Programming", 2.0);
+        IntroToProgrammingCourse courseC = new IntroToProgrammingCourse("Intro To Programming","10040", null, 2.0);
         
         System.out.println("Course Name " + courseA.getCourseName() + " Course Number " + courseA.getCourseNumber());
         System.out.println("Course Name " + courseB.getCourseName() + " Course Number " + courseB.getCourseNumber());
