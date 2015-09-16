@@ -14,11 +14,11 @@ public class StartUp {
         
         
         ProgrammingCourse courseA = new AdvancedJavaCourse("Advanced Java","10050", 4.0, "Intro to Java");
-        ProgrammingCourse courseB = new IntroJavaCourse("Intro to Java","10040", 2.0 ,"Intro to Programming");
+        ProgrammingCourse courseB = new IntroJavaCourse("Intro to Java","10030", 2.0 ,"Intro to Programming");
         ProgrammingCourse courseC = new IntroToProgrammingCourse("Intro To Programming","10040", 2.0, null);
         
         System.out.println("Course Name " + courseA.getCourseName() + " Course Number " + courseA.getCourseNumber());
-        System.out.println("Course Name " + courseB.getCourseName() + " Course Number " + courseA.getCourseNumber());
+        System.out.println("Course Name " + courseB.getCourseName() + " Course Number " + courseB.getCourseNumber());
         System.out.println("Course Name " + courseC.getCourseName() + " Course Number " + courseC.getCourseNumber());
         
         

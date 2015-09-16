@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  */
 public class IntroJavaCourse extends ProgrammingCourse{
 
-    String courseName;
+    private String courseName;
     private String courseNumber;
     private double credits;
     private String prerequisites;

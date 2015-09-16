@@ -62,7 +62,7 @@ public class IntroJavaCourse implements ProgrammingCourse{
     }
 
     public String getCourseName() {
-       return this.getCourseName().toUpperCase();
+       return courseName;
     }
 
     public String getCourseNumber() {

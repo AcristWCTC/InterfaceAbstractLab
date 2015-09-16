@@ -19,7 +19,7 @@ public class StartUp {
         ProgrammingCourse courseC = new IntroToProgrammingCourse("Intro To Programming","10040", null, 2.0);
         
         System.out.println("Course Name " + courseA.getCourseName() + " Course Number " + courseA.getCourseNumber());
-        System.out.println("Course Name " + courseB.getCourseName() + " Course Number " + courseA.getCourseNumber());
+        System.out.println("Course Name " + courseB.getCourseName() + " Course Number " + courseB.getCourseNumber());
         System.out.println("Course Name " + courseC.getCourseName() + " Course Number " + courseC.getCourseNumber());
         
         
