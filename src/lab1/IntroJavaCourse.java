@@ -38,7 +38,6 @@ public class IntroJavaCourse extends ProgrammingCourse{
         if (prerequisites.length() == 0) {
             JOptionPane.showMessageDialog(null,
                     "Error: prerequisites cannot be null of empty string");
-            System.exit(0);
         }
         this.prerequisites = prerequisites;
     }
@@ -47,7 +46,6 @@ public class IntroJavaCourse extends ProgrammingCourse{
         if (credits < 0 || credits > 5.0) {
             System.out.println(
                     "Error: credits must be in the range 0.5 to 4.0");
-            System.exit(0);
         }
         this.credits = credits;
     }
@@ -56,7 +54,6 @@ public class IntroJavaCourse extends ProgrammingCourse{
         if (courseName == null || courseName.length() == 0) {
             JOptionPane.showMessageDialog(null,
                     "Error: courseName cannot be null of empty string");
-            System.exit(0);
         }
         this.courseName = courseName;
     }
