@@ -5,6 +5,7 @@
  */
 package lab1;
 
+
 /**
  *
  * @author L115Student
@@ -13,17 +14,17 @@ public class StartUp {
     public static void main(String[] args) {
         
         
-        ProgrammingCourse courseA = new AdvancedJavaCourse("Advanced Java","10050","Intro to Java", 4.0);
-        ProgrammingCourse courseB = new IntroJavaCourse("Intro to Java","10040","Intro to Programming", 2.0);
-        ProgrammingCourse courseC = new IntroToProgrammingCourse("Intro To Programming","10040",null, 2.0);
+        ProgrammingCourse courseA = new AdvancedJavaCourse("Advanced Java","10050", "Intro to Java", 4.0);
+        ProgrammingCourse courseB = new IntroJavaCourse("Intro to Java","10040" ,"Intro to Programming", 2.0);
+        ProgrammingCourse courseC = new IntroToProgrammingCourse("Intro To Programming","10040", null, 2.0);
         
         System.out.println("Course Name " + courseA.getCourseName() + " Course Number " + courseA.getCourseNumber());
         System.out.println("Course Name " + courseB.getCourseName() + " Course Number " + courseA.getCourseNumber());
         System.out.println("Course Name " + courseC.getCourseName() + " Course Number " + courseC.getCourseNumber());
         
         
-        // This inheirtance has the postive of being able to declare concrete getters in the super class because it is an abstract 
-        // class but has the negtives associated with an abstract superclass
+        // This inheirtance has the postive of forced redeclare of the methods due to them coming from an interface
+        // but is unable to have concrete getters in the super class casuing additonl work for sub class authors  
     }
     
     
