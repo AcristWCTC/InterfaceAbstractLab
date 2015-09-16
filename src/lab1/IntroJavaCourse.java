@@ -15,10 +15,14 @@ public class IntroJavaCourse extends ProgrammingCourse{
     private double credits;
     private String prerequisites;
 
-    public IntroJavaCourse(String courseName, String courseNumber) {
+    public IntroJavaCourse(String courseName, String courseNumber, String prerequisites,double credits) {
         this.courseName = courseName;
         this.courseNumber = courseNumber;
+        this.prerequisites = prerequisites;
+        this.credits = credits;
     }
+
+
 
     public void setCourseNumber(String courseNumber) {
         if (courseNumber == null || courseNumber.length() == 0) {
