@@ -16,10 +16,14 @@ public class IntroToProgrammingCourse implements ProgrammingCourse {
     private double credits;
     private String prerequisites;
 
-    public IntroToProgrammingCourse(String courseName, String courseNumber) {
-        this.setCourseName(courseName);
-        this.setCourseNumber(courseNumber);
+    public IntroToProgrammingCourse(String courseName, String courseNumber, double credits, String prerequisites) {
+        this.courseName = courseName;
+        this.courseNumber = courseNumber;
+        this.credits = credits;
+        this.prerequisites = prerequisites;
     }
+
+
 
     public final void setCourseNumber(String courseNumber) {
         if(courseNumber == null || courseNumber.length() == 0) {

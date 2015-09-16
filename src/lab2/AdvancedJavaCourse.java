@@ -16,10 +16,13 @@ public class AdvancedJavaCourse implements ProgrammingCourse {
     private double credits;
     private String prerequisites;
 
-    public AdvancedJavaCourse(String courseName, String courseNumber) {
-        this.setCourseName(courseName);
-        this.setCourseNumber(courseNumber);
+    public AdvancedJavaCourse(String courseName, String courseNumber, double credits, String prerequisites) {
+        this.courseName = courseName;
+        this.courseNumber = courseNumber;
+        this.credits = credits;
+        this.prerequisites = prerequisites;
     }
+
 
     public void setPrerequisites(String prerequisites) {
         if (prerequisites.length() == 0) {
